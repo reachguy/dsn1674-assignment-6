@@ -19,9 +19,12 @@ img {
   position: relative;
 }
 
-.robot:hover {
-  left: 10px;
-  right: 10px;
+.robot:hover .head-left{
+  right: 60%;
+}
+
+.robot:hover .head-right{
+  left: 60%;
 }
 
 body {
